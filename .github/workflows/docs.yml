@@ -30,9 +30,9 @@ jobs:
         with:
           path: |
             **/node_modules
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-yarn-
+            ${{ runner.os }}-npm-
 
       # install dependencies if the cache did not hit
       - name: Install dependencies
