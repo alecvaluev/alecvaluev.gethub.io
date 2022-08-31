@@ -15,12 +15,14 @@ footer: Made by  with ❤️
 --- -->
 # Study Notebook
 
-:::tip 메뉴 (우측 상단에 있습니다.)
+:::tip
 
 ### 1. [Home](./)
 
 ### 2. [CS](./cs/)
 
-### 3. [Lang](./lang/)
+### 3. [S-Dev](./dev/)
+
+### 4. [Lang](./lang/)
 
 :::
