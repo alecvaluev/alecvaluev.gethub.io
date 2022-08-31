@@ -15,7 +15,7 @@ footer: Made by  with ❤️
 --- -->
 # Study Notebook
 
-:::tip
+:::tip WebMap
 
 ### 1. [Home](./)
 
