@@ -48,22 +48,13 @@ with a “구” sound, it is still written and referred to as -고.
 ```
 
 ## 앞에, 뒤에, 옆에, 위에, 밑에
-
-앞 = front
-
-뒤 = back
-
-옆 = side
-
-위 = top
-
-밑 = bottom
-
-앞에 = in front of
-뒤에 = behind
-옆에 = beside, next to
-위에 = over, on top of
-밑에 = under, below
+| | | 
+| -- | -- | 
+| 앞 = front | 앞에 = in front of |
+| 뒤 = back | 뒤에 = behind |
+| 옆 = side | 옆에 = beside, next to |
+| 위 = top | 위에 = over, on top of |
+| 밑 = bottom | 밑에 = under, below |
 
 > in Korean, they come AFTER the words.
 
@@ -103,8 +94,11 @@ Ex)
 ```
 
 > Conjugation
+> 
 > Verb stems ending with a consonant + -을까요?
+> 
 > Verb stems ending with a vowel + -ᄅ까요?
+> 
 > (Exception) Verb stems ending with ᄅ + -까요?
 
 ```
@@ -201,14 +195,14 @@ the verb ending -아/어/여+서 is similar in meaning to 그래서.
 2. An action + -아/어/여서 + another action which takes place after the first action
 ```
 → 공원에 가서 책을 읽을 거예요.  = I’m going to go to the park and read a book.
-> * Note: This does NOT mean “I’m going to the park, so I’m going to read a book.”
+Note: This does NOT mean “I’m going to the park, so I’m going to read a book.”
 → 친구를 만나서 밥을 먹었어요.   = I met a friend, and (we) ate together.
 ```
 3. An action + -아/어/여서 + the purpose of or the plan after the action
 ```
-→ 돈을 모아서 뭐 할 거예요?    = What are you going to do with the money you save up? (lit. You save up money and
+돈을 모아서 뭐 할 거예요?    = What are you going to do with the money you save up? (lit. You save up money and
 what will you do?)
-→ 케이크를 사서 친구한테 줄 거예요.  = I’m going to buy a cake to/and give it to a friend.
+케이크를 사서 친구한테 줄 거예요.  = I’m going to buy a cake to/and give it to a friend.
 ```
 4. Fixed expressions
 There are a couple of fixed expressions which basically use the same -아/어/여서 structure
@@ -292,7 +286,6 @@ Ex)
 ```
 그 이야기는 거짓말 같아요.
 = That story sounds like a lie.
-
 이 강아지는 고양이 같아요.
 = This puppy is like a cat.
 ```
@@ -339,7 +332,7 @@ meaning and usage is the same as “Noun + 같아요”.
 
 `N + 전에 = before (+ noun)`
 
-```ko
+```
 수업 전에 = before class
 일요일 전에 = before Sunday
 ```
@@ -361,7 +354,9 @@ In this case, -기 is used to change the verbs into nouns.
 that if a verb has ᄇ at the end of the verb stem, and it is followed by a suffix which starts with a vowel, the ᄇ will change
 
 > Conjugation
+> 
 > If the vowel before ᄇ is 오, change ᄇ to 오.
+> 
 > If the vowel before ᄇ is not 오, change ᄇ to 우.
 
 ```
@@ -480,6 +475,7 @@ Adjectives in the infinitive form need to be conjugated just like action verbs.
 Action verbs can be conjugated to be used as adjectives, too!
 
 > Conjugation
+> 
 > V + -는
 
 ```
