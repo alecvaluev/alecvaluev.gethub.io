@@ -435,6 +435,7 @@ pronounce, so you may find that other people, especially women in Seoul, end up 
 저도 돈이 없어요. 그래도 걱정하지 마세요.
 = I don’t have money, either. But still, don’t worry.
 ```
+
 ## Making Adjectives (Part 1) / adjectives in infinitive form + -(으)ᄂ + 명사
 “To be + adjective” aka “infinitive form” in English, also referred to as “descriptive verb form”.
 
@@ -443,11 +444,6 @@ pronounce, so you may find that other people, especially women in Seoul, end up 
 > Conjugation
 > - Verb stems ending with a vowel + -ᄂ
 > - Verb stems ending with a consonant + -은
-
-```
-작다 = to be small
-→ 작 + -은 = 작은 = small
-→ 작은 집 = a small house
 
 ```
 → 조용하 + -ᄂ → 조용한 방 = a quiet room
@@ -471,11 +467,68 @@ Adjectives in the infinitive form need to be conjugated just like action verbs.
 예쁘다 → 예뻐요 ( o )
 ```
 
+```
+이상한 사람이에요.  = He’s a strange person.
+이상한 사람이에요.  = He’s a strange person.
+```
+
 ## Making Adjectives (Part 2) / action verbs + -는 + 명사
+Action verbs can be conjugated to be used as adjectives, too!
 
+> Conjugation
+> V + -는
 
+```
+가다 -> 가는
+자다 -> 자는
+```
+For verb stems ending with ᄅ, drop ᄅ and add -는.
+```
+열다 -> 여는
+불다 -> 부는
+```
+
+The adjective in certain sentences can actually be an adjective clause
+```
+좋아하는 책 = a book that I/you/they/someone like(s)
+내가/제가 안 좋아하는 책 = a book that I don’t like
+
+좋아하는 사람
+= someone who someone likes
+= someone I like
+```
+
+### Sample Sentences
+```
+이 노래는 제가 좋아하는 노래예요.
+= This song is a song that I like.
+자주 먹는 한국 음식 있어요?
+= Is there a Korean food that you eat often?
+요즘 공부하고 있는 외국어는 일본어예요.
+= The foreign language I am studying these days is Japanese.
+```
 
 ## Well then, In that case, If so / 그러면, 그럼
+`그러면 = in that case; if so; then`
+
+그러면 is a combination of 그렇다, which means “to be so”, and -면.
+
+> A shorter version of 그러면 => 그럼
+
+```
+지금 바빠요? 그러면 언제 안 바빠요?
+= You’re busy now? Then WHEN are you not busy?
+한국 음식 좋아해요? 그럼 김밥도 좋아해요?
+= Do you like Korean food? Then do you like kimbap, too?
+진짜요? 그럼 이제 어떻게 해요?
+= Really? If so, what do we do now?
+```
+
+:::tip Fact
+As an adverb, 그럼 (shortening of 그러면) indeed means ‘then’ or ‘in that case’. However, the
+interjection 그럼 (or 그럼요 in polite form) means ‘of course!’ or ‘naturally!’ Depending on the
+context you can distinguish the difference between the two.
+:::
 
 ## Let’s / -아/어/여요 (청유형)
 
