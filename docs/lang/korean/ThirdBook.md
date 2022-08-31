@@ -347,18 +347,52 @@ to use it with verbs such as “going” or “leaving”, the verbs need to be 
 
 In this case, -기 is used to change the verbs into nouns.
 
-```ko
+```
 가다 → 가기 (going) → 가기 전에 = before going
 사다 → 사기 (buying)→ 사기 전에 = before buying
 ```
-```ko
+```
 친구들하고 놀기 전에 숙제할 거예요.
 = I’m going to do homework before I hang out with (my) friends.
 도망가기 전에 잡으세요.
 = Catch him before he runs away.
 ```
 ## Irregular ㅂ
+that if a verb has ᄇ at the end of the verb stem, and it is followed by a suffix which starts with a vowel, the ᄇ will change
 
+> Conjugation
+> If the vowel before ᄇ is 오, change ᄇ to 오.
+> If the vowel before ᄇ is not 오, change ᄇ to 우.
+
+```
+돕다 = to help
+= 도 + ᄇ + 다 → 도 + 오 + 아요 = 도와요
+* Note that it is NOT 돕아요
+[present tense] 도와요
+[past tense] 도왔어요
+[future tense] 도울 거예요
+
+어렵다 = to be difficult
+= 어려 + ᄇ + 다 → 어려 + 우 + 어요 = 어려워요
+[present tense] 어려워요
+[past tense] 어려웠어요
+[future tense] 어려울 거예요
+```
+
+### Some other irregular words
+```
+눕다 = to lie down → 누워요.
+굽다 = to bake → 구워요.
+덥다 = to be hot (weather) → 더워요.
+쉽다 = to be easy → 쉬워요.
+맵다 = to be spicy → 매워요.
+귀엽다 = to be cute → 귀여워요.
+밉다 = to hate; to be dislikeable → 미워요.
+아름답다 = to be beautiful → 아름다워요.
+```
+::: danger Note
+with suffixes such as -는 or -고, ᄇ does not change.
+:::
 ## But still, Nevertheless / 그래도
 
 ## Making Adjectives (Part 1) / adjectives in infinitive form + -(으)ᄂ + 명사
