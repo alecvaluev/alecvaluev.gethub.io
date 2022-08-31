@@ -1,6 +1,6 @@
 # 제3권
 
-## Too much, Very / 너무
+## 너무
 
 너무 = too (much), excessively
 
@@ -23,7 +23,7 @@
 
 in colloquial Korean, it also - `“very”, “quite”, or “really”`.
 
-## Linking Verbs / -고
+## -고
 
 V + 고
  = the same meaning as 그리고.
@@ -47,7 +47,7 @@ with a “구” sound, it is still written and referred to as -고.
 = I will go to Korea in September, and I will go to Japan in October.
 ```
 
-## In front of, Behind, Next to, On top of, Under / 앞에, 뒤에, 옆에, 위에, 밑에
+## 앞에, 뒤에, 옆에, 위에, 밑에
 
 앞 = front
 
@@ -74,7 +74,7 @@ with a “구” sound, it is still written and referred to as -고.
 = I was talking on the phone in front of the door.
 ```
 
-## Shall we...?, I wonder... / -(으)ᄅ까요?
+## -(으)ᄅ까요?
 
 By using -ᄅ까요? or -을까요? it is showing curiosity or uncertainty.
 
@@ -298,9 +298,65 @@ Ex)
 ```
 
 ## To look like, To seem like (used with verbs) / -(으)ᄂ/는/(으)ᄅ 것 같아요
+When using 같아요 with verbs, however, the verb needs to be changed into its noun form.
+There are a few different ways to change a verb into a noun,
+
+### Descriptive verbs
+> V + -(으)ᄂ 것
+
+### Action verbs
+> Present: V + -는 것
+> 
+> Past: V + -(으)ᄂ 것               
+> 
+> Future: V + -(으)ᄅ 것
+
+What does - 것 같아요 mean?
+
+Even when 같아요 is combined with a verb, since - 것 makes the verb a noun, the basic
+meaning and usage is the same as “Noun + 같아요”.
+
+1. “It looks like...”
+2. “It seems to be...”
+3. “To me it looks like...”
+4. “I think it is...”
+5. “I think it will...”
+6. “I think it was....”
+
+```
+이상하 + ᄂ 것 같아요 = 이상한 것 같아요.
+= It seems to be strange. / I think it is strange.
+
+눈이 오다 = to snow
+눈이 오 + 는 것 같아요 = 눈이 오는 것 같아요.
+= It seems to be snowing. / I think it is snowing.
+
+이야기하 + ᄂ 것 같아요 = 이야기한 것 같아요.
+= I think they told them. / It looks like they talked.
+```
 
 ## Before -ing / -기 전에
 
+`N + 전에 = before (+ noun)`
+
+```ko
+수업 전에 = before class
+일요일 전에 = before Sunday
+```
+to use it with verbs such as “going” or “leaving”, the verbs need to be changed into nouns.
+
+In this case, -기 is used to change the verbs into nouns.
+
+```ko
+가다 → 가기 (going) → 가기 전에 = before going
+사다 → 사기 (buying)→ 사기 전에 = before buying
+```
+```ko
+친구들하고 놀기 전에 숙제할 거예요.
+= I’m going to do homework before I hang out with (my) friends.
+도망가기 전에 잡으세요.
+= Catch him before he runs away.
+```
 ## Irregular ㅂ
 
 ## But still, Nevertheless / 그래도
