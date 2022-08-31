@@ -452,7 +452,9 @@ pronounce, so you may find that other people, especially women in Seoul, end up 
 
 ::: warning Exceptions
 하얗다 → 하얀 = white [NOT 하얗은]
+
 그렇다 → 그런 = such [NOT 그렇은]
+
 달다 → 단 = sweet [NOT 달은]
 
 The descriptive verbs 있다 and 없다 are also an exception because they are combined with -는;
@@ -461,11 +463,13 @@ this includes verbs that end in -있다 and -없다, such as 재미있다, 맛�
 
 ### Commin mistake
 all adjectives are in the infinitive form already, it is INCORRECT to conjugate them with -이에요.
-```
-예쁜이에요 ( x )
+
+`예쁜이에요 ( x )`
+
 Adjectives in the infinitive form need to be conjugated just like action verbs.
-예쁘다 → 예뻐요 ( o )
-```
+
+`예쁘다 → 예뻐요 ( o )`
+
 
 ```
 이상한 사람이에요.  = He’s a strange person.
