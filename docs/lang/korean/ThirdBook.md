@@ -393,11 +393,87 @@ that if a verb has ᄇ at the end of the verb stem, and it is followed by a suff
 ::: danger Note
 with suffixes such as -는 or -고, ᄇ does not change.
 :::
-## But still, Nevertheless / 그래도
 
+There are a handful of verbs which do not follow this rule. The ᄇ in these words does not change when in front of a vowel.
+```
+Action verbs:
+- 입다 = to wear
+- 잡다 = to catch
+- 씹다 = to bite
+
+Descriptive verbs:
+- 좁다 = to be narrow
+- 넓다 = to be wide
+```
+
+```
+서울은 겨울에 정말 추워요.
+= In Seoul, it’s really cold in the winter.
+이 문제는 어려워요.
+= This problem is difficult.
+```
+## But still, Nevertheless / 그래도
+`그래도 means “but still”, “however”, “nonetheless”, or “nevertheless”.`
+
+> Let’s break it down:
+> 그래도 = 그래 + 도
+> 그래 = 그렇게 해 or 그렇게 하여 (to do it in such a way, to do that)
+> -도 = also, too, even
+ 
+The literal meaning of “그래 + 도” is “even if you do that”, “even if that happens”, or “if you do that, too” with the meaning of “still” added to the context.
+
+:::tip Fact
+If you feel the need to be more polite, or if you want to make 100% sure you are not being
+rude, add -요 to the end and say, “그래도요”. The “도요” combination takes a bit of work to
+pronounce, so you may find that other people, especially women in Seoul, end up saying “그
+래두요” rather than “그래도요”
+:::
+
+```
+어제는 비가 왔어요. 그래도 축구를 했어요.
+= Yesterday, it rained. Nevertheless, we played soccer.
+저도 돈이 없어요. 그래도 걱정하지 마세요.
+= I don’t have money, either. But still, don’t worry.
+```
 ## Making Adjectives (Part 1) / adjectives in infinitive form + -(으)ᄂ + 명사
+“To be + adjective” aka “infinitive form” in English, also referred to as “descriptive verb form”.
+
+바쁘다 → It does NOT mean “busy”. It means “to be busy”.
+
+> Conjugation
+> - Verb stems ending with a vowel + -ᄂ
+> - Verb stems ending with a consonant + -은
+
+```
+작다 = to be small
+→ 작 + -은 = 작은 = small
+→ 작은 집 = a small house
+
+```
+→ 조용하 + -ᄂ → 조용한 방 = a quiet room
+→ 작 + -은 → 작은 집 = a small house
+```
+
+::: warning Exceptions
+하얗다 → 하얀 = white [NOT 하얗은]
+그렇다 → 그런 = such [NOT 그렇은]
+달다 → 단 = sweet [NOT 달은]
+
+The descriptive verbs 있다 and 없다 are also an exception because they are combined with -는;
+this includes verbs that end in -있다 and -없다, such as 재미있다, 맛있다, 재미없다, etc.
+:::
+
+### Commin mistake
+all adjectives are in the infinitive form already, it is INCORRECT to conjugate them with -이에요.
+```
+예쁜이에요 ( x )
+Adjectives in the infinitive form need to be conjugated just like action verbs.
+예쁘다 → 예뻐요 ( o )
+```
 
 ## Making Adjectives (Part 2) / action verbs + -는 + 명사
+
+
 
 ## Well then, In that case, If so / 그러면, 그럼
 
