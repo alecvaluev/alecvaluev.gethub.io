@@ -532,6 +532,24 @@ context you can distinguish the difference between the two.
 
 ## Let’s / -아/어/여요 (청유형)
 
+There are a few different ways to say “let’s” in Korean:
+
+1. -아/어/여요 [polite/plain]
+2. -(으)시죠 [honorific]
+3. -자 [informal]
+4. -(으)ㄹ래요? [polite/casual]
+5. -(으)실래요? [polite/formal]
+
+The most frequently used form is the first example above, `-아/어/여요`
+
+### Sample Sentences 
+```
+저도 서점에 갈 거예요. 같이 가요!
+= I’m going to the bookstore, too. Let’s go together!
+배 안 고파요? 우리 햄버거 먹어요.
+= Aren’t you hungry? Let’s eat hamburgers.
+```
+
 ## In order to, For the sake of / 위해, 위해서
 
 ## Nothing but, Only / -밖에 + 부정형
