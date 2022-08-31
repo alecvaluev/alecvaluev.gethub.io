@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as o,b as n}from"./app.8c1912fa.js";const c={},_=n("p",null,"Software Development page",-1),s=[_];function a(r,l){return t(),o("div",null,s)}const i=e(c,[["render",a],["__file","index.html.vue"]]);export{i as default};

@@ -1,1 +1,0 @@
-import{_ as e,o as t,c,b as n}from"./app.8c1912fa.js";const o={},s=n("p",null,"cs page",-1),_=[s];function a(r,l){return t(),c("div",null,_)}const i=e(o,[["render",a],["__file","index.html.vue"]]);export{i as default};
