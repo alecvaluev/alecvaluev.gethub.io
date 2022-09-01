@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-cda47018","path":"/cs/DataStructures/RBT.html","title":"Red Black Trees","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1662003385000},"filePathRelative":"cs/DataStructures/RBT.md"}');export{t as data};
