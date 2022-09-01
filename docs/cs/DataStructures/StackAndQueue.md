@@ -22,9 +22,17 @@ Some examples:
  - infix to postfix expression (stack)
  - postfix expression calculation (stack)
 
-## Implementaiton
+## Stack Implementaiton
 > As a stack is essentially a list with a restriction on the operations of a list
 
 2 general ways to implement a stack:
 1. an array
 2. a linked list
+
+Recall that the operations are as follows:
+ - push - add a new item to the stack
+ - pop - removes top item from the stack
+ - initialize - create an empty stack
+ - isEmpty - tests for whether or not stack is empty
+ - isFull - tests to see if stack is full and cannot grow (not always needed)
+ - top - looks at value of the top item but do not remove it
