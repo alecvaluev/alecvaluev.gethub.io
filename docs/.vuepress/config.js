@@ -14,7 +14,7 @@ export default defineUserConfig({
           { text: 'Lang', link: '/lang/' },
         ],
         sidebar: {
-          '/CS/': getFiles('cs'),
+          '/cs/': getFiles('cs'),
           '/dev/': getFiles('dev'),
           '/lang/': getFiles('lang'),
           '/': [''],
