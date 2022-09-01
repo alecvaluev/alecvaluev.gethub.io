@@ -6,14 +6,14 @@ The two main resources to consider are `time` and `memory`. The resource to opti
 
 what we really care about is the growth rate of resource consumption with respect to the data size.
 
-### Time Resource
+## Time Resource
 One way that we can measure the amount of time required by an algorithm is to measure how many operations it performs.  
 When doing this, we make the assumption that every operation has the same time cost. 
 
-### Memory Resource
+## Memory Resource
 This is not calculated by operation count, but we can still make a calculation on this based on variable declarations, dynamically allocated memory etc.  
 
-### Growth Rates
+## Growth Rates
 It is about understanding the growth in resource consumption as the amount of data increases
 
 From most efficient to least efficient:
@@ -25,7 +25,7 @@ From most efficient to least efficient:
 6. Cubic (y = n^3)
 7. Exponential (y = 2^n)
 
-### Asymptotic notation
+## Asymptotic notation
  - are formal notational methods for stating the upper and lower bounds of a function.
  
 > These are:  
