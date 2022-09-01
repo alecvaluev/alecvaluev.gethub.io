@@ -1,4 +1,5 @@
-# Reading Rules
+# 읽기 규칙
+## Reading Rules
 
 1. const + `base` -> `double`
 2. ㅎ <-> `base`  -> `strong`
