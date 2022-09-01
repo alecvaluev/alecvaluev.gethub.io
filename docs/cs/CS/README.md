@@ -79,6 +79,7 @@ and more...
 ### Linked List
 Data structure that stores a collection of objects in a **sequential** manner.  Each item is stored in a node.  Each node consists of a single piece of data and at least one pointer to another node. 
 
+![singly-linked-list](/images/cs/linkedlist.png)
 ## Stacks and Queues
 
 
