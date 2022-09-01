@@ -19,7 +19,7 @@ footer: Made by  with ❤️
 
 ### 1. [Home](./)
 
-### 2. [CS](./CS/)
+### 2. [CS](./cs/)
 
 ### 3. [S-Dev](./dev/)
 
