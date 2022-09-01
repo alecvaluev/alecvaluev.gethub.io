@@ -9,7 +9,7 @@ export default defineUserConfig({
     theme: defaultTheme({
         navbar: [
           { text: '홈', link: '/' },
-          { text: 'CS', link: '/CS/' },
+          { text: 'CS', link: '/cs/' },
           { text: 'S-Dev', link: '/dev/' },
           { text: 'Lang', link: '/lang/' },
         ],
