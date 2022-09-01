@@ -1,8 +1,6 @@
-# Algorithms and Data Structures
+# Algorithms Analysis
 
 Data structures and algorithms looks at how data for computer programs can best be represented and processed.
-
-## Algorithms Analysis
 
 The two main resources to consider are `time` and `memory`. The resource to optimize for depends on the application and the computing system.
 
