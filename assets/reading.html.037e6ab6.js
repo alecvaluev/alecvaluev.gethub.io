@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-17ec8f50","path":"/lang/korean/reading.html","title":"\uC77D\uAE30 \uADDC\uCE59","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Reading Rules","slug":"reading-rules","link":"#reading-rules","children":[]}],"git":{"updatedTime":1661998938000},"filePathRelative":"lang/korean/reading.md"}');export{e as data};
