@@ -8,7 +8,7 @@ export default defineUserConfig({
     title: 'Notebook',
     theme: defaultTheme({
         navbar: [
-          { text: '홈', link: '/' },
+          { text: 'Home', link: '/' },
           { text: 'CS', link: '/cs/' },
           { text: 'S-Dev', link: '/dev/' },
           { text: 'ㅎ', link: '/lang/' },
