@@ -23,6 +23,4 @@ footer: Made by  with ❤️
 
 ### 3. [S-Dev](./dev/)
 
-### 4. [Lang](./lang/)
-
 :::
