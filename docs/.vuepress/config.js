@@ -11,7 +11,7 @@ export default defineUserConfig({
           { text: '홈', link: '/' },
           { text: 'CS', link: '/cs/' },
           { text: 'S-Dev', link: '/dev/' },
-          { text: 'Lang', link: '/lang/' },
+          { text: 'ㅎ', link: '/lang/' },
         ],
         sidebar: {
           '/cs/': getFiles('cs'),
