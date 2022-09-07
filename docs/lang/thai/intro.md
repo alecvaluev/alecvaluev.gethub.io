@@ -39,8 +39,9 @@
 - ร - final -> `on` 
 > กร /gon/
 
-- ร - silen
-after: จ(j) ซ(s) ศ(s) ส(s)
+- ร - silent
+
+After: จ(j) ซ(s) ศ(s) ส(s)
 
 > จร ซร ศร สร
 
@@ -54,17 +55,20 @@ after: จ(j) ซ(s) ศ(s) ส(s)
 > ขนม /khanom/
 
 - ห - silent
-it changes thetone of the next letter to `HIGH`
+
+It changes the tone of the next letter to `HIGH`
 
 - ท + ร -> `s`
 > ทรง /song/ 
 
 - const + ร/ล/ว - cluster + `o`
+
 > ตรง /dtrong/
 >
 >กลม /glom/
 
 - บร at the beg. -> `o`
+
 > บริการ /bo-ri-gan/
 
 - อย - at the beg. -> `MID CLASS`
