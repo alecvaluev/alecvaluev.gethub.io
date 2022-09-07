@@ -59,6 +59,11 @@ it changes thetone of the next letter to `HIGH`
 - ท + ร -> `s`
 > ทรง /song/ 
 
+- const + ร/ล/ว - cluster + `o`
+> ตรง /dtrong/
+>
+>กลม /glom/
+
 - บร at the beg. -> `o`
 > บริการ /bo-ri-gan/
 
