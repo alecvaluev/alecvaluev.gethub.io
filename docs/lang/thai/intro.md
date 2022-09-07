@@ -1,28 +1,34 @@
 # Alphabet
 
-## Consonants
-### High Class
-
-### Middle Class
-
-### Lower Class
-
-
-## Vowels
-
-### Diphthongs
-
 
 ## Tones Rules
-| | |
-| -- | -- |
-| M/H + `'` | |
-| M/H + `i` | |
-| M + `k` | |
-| M + `+` | |
-| L + `'` | |
-| L + `u` | |
+| class | mark | tone |
+| -- | -- | -- |
+| M/H | `'` | \ |
+| M/H | `  ้` | ^ |
+| M | ` ็` | / |
+| M | `+` | v |
+| L | `'` | ^ |
+| L | `  ้` | / |
 
-/live/
+| | letters | class | tone |
+| -- | -- | -- | -- |
+| /live/ | มนงยว | H | v |
+|  |  | M/L | - |
+| | | | | |
+| /dead/ | บดก | H/M | \ |
+| | | L + short | / |
+| | | L + long | ^ |
+
+
+| live | | 
+| -- | -- |
+| H + long | v |
+| M/L + long | - |
+
+| dead | | 
+| -- | -- |
+| H/M + short | \ |
+| L + short | / |
 
 ## Special Rules
