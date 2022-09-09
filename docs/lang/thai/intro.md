@@ -2,6 +2,8 @@
 
 
 ## Tones Rules
+
+### Tone Mark
 | class | mark | tone |
 | -- | -- | -- |
 | M/H | `'` | \ |
@@ -10,6 +12,8 @@
 | M | `+` | v |
 | L | `'` | ^ |
 | L | `  ้` | / |
+
+### Ends with Const 
 
 | | letters | class | tone |
 | -- | -- | -- | -- |
@@ -20,7 +24,7 @@
 | | | L + short | / |
 | | | L + long | ^ |
 
-
+### Ends without Const
 | live | | 
 | -- | -- |
 | H + long | v |
@@ -31,7 +35,7 @@
 | H/M + short | \ |
 | L + short | / |
 
-## Special Rules
+## Special Reading Rules
 
 - const + const -> `o`
 > คน /khon/
