@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6fd0cea8","path":"/dev/C++/Containers.html","title":"Containers","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Sequence containers","slug":"sequence-containers","link":"#sequence-containers","children":[]}],"git":{"updatedTime":1662746889000},"filePathRelative":"dev/C++/Containers.md"}');export{e as data};
