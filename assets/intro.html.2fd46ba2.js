@@ -1,4 +1,4 @@
-import{_ as n,o as a,c as s,f as e}from"./app.e41117d3.js";const t={},o=e(`<h1 id="getting-started" tabindex="-1"><a class="header-anchor" href="#getting-started" aria-hidden="true">#</a> Getting Started</h1><h2 id="autimatic-setup" tabindex="-1"><a class="header-anchor" href="#autimatic-setup" aria-hidden="true">#</a> Autimatic Setup</h2><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>npx create-next-app@latest
+import{_ as n,o as a,c as s,f as e}from"./app.30fdaf6f.js";const t={},o=e(`<h1 id="getting-started" tabindex="-1"><a class="header-anchor" href="#getting-started" aria-hidden="true">#</a> Getting Started</h1><h2 id="autimatic-setup" tabindex="-1"><a class="header-anchor" href="#autimatic-setup" aria-hidden="true">#</a> Autimatic Setup</h2><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>npx create-next-app@latest
 # or
 yarn create next-app
 # or
