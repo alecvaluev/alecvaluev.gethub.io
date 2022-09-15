@@ -551,12 +551,101 @@ The most frequently used form is the first example above, `-아/어/여요`
 ```
 
 ## In order to, For the sake of / 위해, 위해서
+:::tip Fact
+위하다 means “to put forth the effort for something/someone” or “to do something to
+benefit someone”, but it is rarely used as is without being changed to another form.
+:::
+
+`위해 = 위해서 = in order to/for, for the sake of.`
+
+:::warning Same
+위해 = 위하여
+위해서 = 위하여서
+:::
+
+Usages:
+> Noun + -를 위해/위해서
+>
+> = in order for + noun = for the sake of + noun
+
+```
+건강을 위해서  = for health; for the sake of health; in order to be healthy
+회사를 위해서  = for the company; for the good of the company
+```
+
+> Verb stem + -기 위해/위해서
+
+```
+한국에 가기 위해서      = in order to go to Korea
+일본어를 배우기 위해서  = in order to learn Japanese
+```
+
+Sample Sentences
+```
+저는 한국에 가기 위해서 열심히 공부했어요.
+= I studied hard in order to go to Korea.
+
+부모님을 위해서 돈을 모았어요.
+= I saved up money for my parents.
+```
 
 ## Nothing but, Only / -밖에 + 부정형
 
-## After -ing / 다음에, 후에, 뒤에
+`-밖에 + negative verb conjugation`
+`nothing else but” or “do not do anything other than` in English
 
+> Conjugation
+> 
+> Noun + -밖에 + negative conjugation
+
+```
+콜라밖에 안 마시다 = to only drink cola
+돈밖에 없다 = to have nothing but money, to only have money
+```
+Sample sentences
+```
+한국어 조금밖에 못 해요.  = I can only speak a little bit of Korean.
+이것밖에 없어요?  = This is it? = You only have this?
+```
+
+## After -ing / 다음에, 후에, 뒤에
+```
+-(으)ᄂ + 다음에
+
+-(으)ᄂ + 후에
+
+-(으)ᄂ + 뒤에
+```
+
+> Conjugation
+>
+> Verb stem + -(으)ᄂ + 다음(or 후/뒤)에 = after -ing
+
+:::warning Interesting
+you learned how to conjugate verbs into adjectives using -(으)ᄂ. Here,
+-(으)ᄂ indicates that the verb was done in the past, which makes the adjective clause “after
+-ing” past tense.
+:::
+
+Sample sentences
+```
+영화 본 다음에 우리 커피 마셔요.
+= After watching the movie, let’s drink coffee.
+
+영화 본 다음에 우리 커피 마셔요.
+= After watching the movie, let’s drink coffee.
+```
 ## Even if, Even though / -아/어/여도
+`-아/어/여도 = even if, even though`
+
+Sample sentences
+```
+집에 가도, 밥이 없어요.
+= Even if I go home, there is no food.
+
+냄새는 이상해도 맛있어요.
+= It is tasty even though it smells weird.
+```
 
 ## Linking Verbs / -는/은/ᄂ데
 
