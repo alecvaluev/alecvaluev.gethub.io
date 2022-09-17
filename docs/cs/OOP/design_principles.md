@@ -1,9 +1,15 @@
 # OOP Design Principles
 Intro to the **SOLID** principles - 
 
-> Single responsibility, Open-closed, Liskov substitution,
+> Single responsibility
+>
+> Open-closed
+> 
+> Liskov substitution,
 >  
-> Interface segregation and Dependency inversion
+> Interface segregation 
+>
+> and Dependency inversion
 
 ...and other important principles for designing
 
