@@ -32,12 +32,15 @@ SQL is a Standard - BUT.... Although SQL is an ANSI/ISO standard, there are diff
 ## SELECT statement
 
 used to retrieve data from a database and is most ofter referred to as a Query.
+
 ### Order of Execution
+
 :::tip Oracle and MS SQL
-SELECT <column1>, <column2>, <columnN>
-FROM <tablename>
-WHERE <one or more comparison expressions>
-ORDER BY <field list comma separated>;
+
+SELECT < column1>, < column2>, < columnN>
+FROM < tablename>
+WHERE < one or more comparison expressions>
+ORDER BY < field list comma separated>;
 
 SELECT and FROM - required,  
   WHERE and ORDER BY - optional.
@@ -46,7 +49,7 @@ SELECT and FROM - required,
 Get all columns
   
 :::tip Oracle and MS SQL
-  SELECT * FROM <tablename>;
+  SELECT * FROM < tablename>;
 :::
   
 ### Order of Execution
