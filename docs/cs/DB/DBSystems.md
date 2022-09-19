@@ -148,8 +148,8 @@ When multiple tables, or entities, are being used, there is often attributes in 
 
 ### Relationship Types
 
-| -- | -- |
 | 1-to-many (1-∞)	| These relationships are the most common type of relationship and means that in one direction, there can be only one value per row of the child table, but in the other direction, there can many rows in the child table that reference a single row in the parent table. |
+| -- | -- |
 | 1-to-1 (1-1)	| These relationships are used to reference multiple attributes of a row, determined by the primary key, where different attributes have varying levels of completeness (i..e they have a value or not).  When investigating the relationship from both directions, there can not be more than one related row in either table.  An example follows. |
 | many-to-many (∞-∞)	| Many-to-Many, also noted M:M or M:N, relationships are a special circumstance where there could be more than one reference to each row of the other table, in both directions.  If the league was to decide that a player could play on more than one team, then the design of the tables has to change, but then we would have the scenario where each team could have more than one player and each player could play on more than one team. |
 
@@ -190,7 +190,8 @@ If there are multiple relationships in a database, one relationship can not over
 
 4 major typesof tables in common databases:
 | Data Table	| The purpose is to store raw data for later querying, analyzing and manipulating.  The majority of tables in a database are of this type.
-Examples: students, employees, orders, products | 
+Examples: students, employees, orders, products |
+| -- | -- |
 | Lookup Table	| The purpose is to centralize data to avoid repeated data groups.  A common use of a lookup table is to populate a dropdown list on a website or user interface.,  Often lookup tables are parent tables in relationships.
 Examples: Provinces, Countries, Colours, Manufacturers, Gender, Transmission Type | 
 | Junction/Bridge Table	| A third table created between two tables to simulate a many-to-many relationship through two opposite 1-to-many relationships.  Junction or Bridge tables can often contain data as well, based on the dependencies between the data and the two parent primary keys. | 
