@@ -189,20 +189,12 @@ If there are multiple relationships in a database, one relationship can not over
 ## Table types
 
 4 major typesof tables in common databases:
-| Data Table	| The primary purpose of this table is to store raw data for later querying, analyzing and manipulating.  The majority of tables in a database are of this type.
+| Data Table	| The purpose is to store raw data for later querying, analyzing and manipulating.  The majority of tables in a database are of this type.
 Examples: students, employees, orders, products | 
-| Lookup Table	| The primary purpose of a lookup table is to centralize data to avoid repeated data groups.  A common use of a lookup table is to populate a dropdown list on a website or user interface.,  Often lookup tables are parent tables in relationships.
+| Lookup Table	| The purpose is to centralize data to avoid repeated data groups.  A common use of a lookup table is to populate a dropdown list on a website or user interface.,  Often lookup tables are parent tables in relationships.
 Examples: Provinces, Countries, Colours, Manufacturers, Gender, Transmission Type | 
 | Junction/Bridge Table	| A third table created between two tables to simulate a many-to-many relationship through two opposite 1-to-many relationships.  Junction or Bridge tables can often contain data as well, based on the dependencies between the data and the two parent primary keys. | 
 | Temporary Table	| A table that has limited lifetime in a database.  Often these table lack referential integrity, are not manually manipulated, break several fundamental database design rules, but has a very distinct purpose in a database.  These purposes could include:
 - moving data from one table to another or importing data from an external source
 - migrating an old database design to a new database design
 - the static storage of query results to minimize repeated processing required for complex calculations. (Often used for feeding high traffic websites or mobile applications) | 
-
-
-
-
-
-
-
-
