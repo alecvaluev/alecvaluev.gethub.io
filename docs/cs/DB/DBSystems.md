@@ -95,7 +95,7 @@ A database design should:
 
 ## Database Life Cycle
 
-| Requirements Analysis	What does the database need?  What information do we need later?  How is the database going to be used?  What other applications will the database support? |
+| Requirements Analysis	| What does the database need?  What information do we need later?  How is the database going to be used?  What other applications will the database support? |
 | -- | -- | 
 | Logical Design	| Design Specifications, Data Modeling, Entity Relationship Diagrams, Data Types, Normalization, |
 | Physical Design	| Actual process of creating tables and database structure (SQL, DDL) |
@@ -154,6 +154,52 @@ When multiple tables, or entities, are being used, there is often attributes in 
 | many-to-many (∞-∞)	| Many-to-Many, also noted M:M or M:N, relationships are a special circumstance where there could be more than one reference to each row of the other table, in both directions.  If the league was to decide that a player could play on more than one team, then the design of the tables has to change, but then we would have the scenario where each team could have more than one player and each player could play on more than one team. |
 
 ## Referential Integrity
+> it helps prevent errors in the data
+
+`Referential Integrity` ensures that values entered into child table attributes already exist in the parent table.  Additionally, referential integrity prevents records in a parent table to be deleted if it is currently being referenced from a child table.
+
+
+`An orphan record` is a child value that does not have an associated parent.
+
+### Cascading
+
+It's a feature for helping automate the process and simplify the steps needed to allow these changes to occur
+
+Types of cascading:
+
+1. Cascade Updates
+
+ If the primary key of the parent record changes for any reason, then the child records that reference the parent value would be automatically updated to match the change.
+ 
+ :::warning Warning
+ This feature is generally safe to include when the parent value is a **primary key** (a single field), as the uniqueness feature would maintain the unique reference between tables.  However, in cases of a **composite primary key**, the uniqueness comes only from the combination of values and therefore it is possible that records could overlap and mixed together where they should not be.
+ :::
+ 
+2. Cascade Deletes
+
+Cascade deletes are the most dangerous version of cascading.  If a parent record is deleted, then all child records that refer to the parent record will also be deleted.
+
+:::warning Warning
+If there are multiple relationships in a database, one relationship can not override another.
+1. cascade deletes - allowed - then both player 123 and the associated coaching position would also be deleted.
+2. cascade deletes - not allowed - then the coaching position would prevent player 123 from being deleted, and because player 123 can not be deleted, team 22 (the Hornets) also can not be deleted, regardless of cascade deletes enabled on that relationship.
+:::
+
+
+## Table types
+
+4 major typesof tables in common databases:
+| Data Table	| The primary purpose of this table is to store raw data for later querying, analyzing and manipulating.  The majority of tables in a database are of this type.
+Examples: students, employees, orders, products | 
+| Lookup Table	| The primary purpose of a lookup table is to centralize data to avoid repeated data groups.  A common use of a lookup table is to populate a dropdown list on a website or user interface.,  Often lookup tables are parent tables in relationships.
+Examples: Provinces, Countries, Colours, Manufacturers, Gender, Transmission Type | 
+| Junction/Bridge Table	| A third table created between two tables to simulate a many-to-many relationship through two opposite 1-to-many relationships.  Junction or Bridge tables can often contain data as well, based on the dependencies between the data and the two parent primary keys. | 
+| Temporary Table	| A table that has limited lifetime in a database.  Often these table lack referential integrity, are not manually manipulated, break several fundamental database design rules, but has a very distinct purpose in a database.  These purposes could include:
+- moving data from one table to another or importing data from an external source
+- migrating an old database design to a new database design
+- the static storage of query results to minimize repeated processing required for complex calculations. (Often used for feeding high traffic websites or mobile applications) | 
+
+
 
 
 
