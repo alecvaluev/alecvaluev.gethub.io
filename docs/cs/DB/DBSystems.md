@@ -189,6 +189,7 @@ If there are multiple relationships in a database, one relationship can not over
 ## Table types
 
 4 major typesof tables in common databases:
+
 | Data Table	| The purpose is to store raw data for later querying, analyzing and manipulating.  The majority of tables in a database are of this type.
 Examples: students, employees, orders, products |
 | -- | -- |
