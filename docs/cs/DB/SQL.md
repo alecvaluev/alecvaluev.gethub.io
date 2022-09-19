@@ -32,16 +32,16 @@ SQL is a Standard - BUT.... Although SQL is an ANSI/ISO standard, there are diff
 ## SELECT statement
 
 used to retrieve data from a database and is most ofter referred to as a Query.
-
-tip Oracle and MS SQL
+### Order of Execution
+:::tip Oracle and MS SQL
 SELECT <column1>, <column2>, <columnN>
 FROM <tablename>
 WHERE <one or more comparison expressions>
 ORDER BY <field list comma separated>;
-  
-> SELECT and FROM - required,  
-  WHERE and ORDER BY - optional.
 
+SELECT and FROM - required,  
+  WHERE and ORDER BY - optional.
+:::
 
 Get all columns
   
@@ -68,3 +68,15 @@ Get all columns
 - User defined words are entered in lower case
 - Carriage returns are used before each of the main components of an SQL statement
 :::
+
+ ## Dual Table (Oracle ONLY)
+ 
+ built in table for outputing something that is **not in a table**
+ 
+ :::warning Oracle
+ SELECT * FROM dual;
+ 
+ SELECT 2 * 7 AS number FROM dual
+ :::
+ 
+ > used most when dealing with dates, especially when dates are relative to the current date: today, yesterday, tomorrow, next Monday, next week, last week, this year, etc.
