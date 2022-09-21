@@ -122,11 +122,14 @@ When multiple tables, or entities, are being used, there is often attributes in 
 | many-to-many (M:N)	| Many-to-Many, also noted M:M or M:N, relationships are a special circumstance where there could be more than one reference to each row of the other table, in both directions.  If the league was to decide that a player could play on more than one team, then the design of the tables has to change, but then we would have the scenario where each team could have more than one player and each player could play on more than one team. |
 
 :::details More Types
+
 | Type | Desc |
 | -- | -- |
-| Unary (recursive) | one in which a relationship exists between occurrences of the same entity set. In this relationship, the primary and foreign keys are the same, but they represent two entities with different roles|
-| Ternary | a relationship type that involves many to many relationships between three tables. |
+| Unary (recursive) | one in which a relationship exists between occurrences of the same entity set. In this relationship, the primary and foreign keys are the same, but they represent two entities with different roles |
+| Ternary | a relationship type that involves many to many relationships between three tables |
+
 :::
+
 ## Referential Integrity
 > it helps prevent errors in the data
 
