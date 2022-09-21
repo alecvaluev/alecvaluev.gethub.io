@@ -92,8 +92,11 @@ A database can contain many tables.
 - supporting and feeding day to day business operations through production and transactions.
 - ability to get more information from the same amount of data through relations
 - sharing of data
-- security of data to authorized users
+- security of data to authorized users (give read-only/read and write privileges)
+- enforcement of integrity constraints (data type - numbers only, data uniqueness)
+- data independance (the system data descriptions or data describing data (metadata) are separated from the application programs)
 - software independence (can restructure database without requiring updates to the software)
+- backup and recovery facilities
 :::
 
 :::details Self-describing nature of a database system
