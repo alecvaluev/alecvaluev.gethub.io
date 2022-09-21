@@ -206,9 +206,31 @@ If there are multiple relationships in a database, one relationship can not over
 - the static storage of query results to minimize repeated processing required for complex calculations. (Often used for feeding high traffic websites or mobile applications) | 
 
 
-:::danger Terms
-:::details List of terms
- -term
- -term
+:::danger Key Terms
+:::details 
+**concurrency**: the ability of the database to allow multiple users access to the same record without adversely affecting transaction processing
+**data element**: a single fact or piece of information
+**data inconsistency**: a situation where various copies of the same data are conflicting
+**data isolation**: a property that determines when and how changes made by one operation become visible to other concurrent users and systems
+**data integrity**: refers to the maintenance and assurance that the data in a database are correct and consistent
+**data redundancy**: a situation that occurs in a database when a field needs to be updated in more than one table
+**database approach**: allows the management of large amounts of organizational information
+**database management software**: a powerful software tool that allows you to store, manipulate and retrieve data in a variety of ways
+**file-based system**: an application program designed to manipulate data files
+
+**data elements**: facts that represent real-world information
+**database**: a shared collection of related data used to support the activities of a particular organization
+**database management system (DBMS)**:  a collection of programs that enables users to create and maintain databases and control all access to them
+**table: a combination of fields
+
+**concurrency control strategies**: features of a database that allow several users access to the same data item at the same time
+**data type**: determines the sort of data permitted in a field, for example numbers only
+**data uniqueness**: ensures that no duplicates are entered
+**database constraint**: a restriction that determines what is allowed to be entered or edited in a table
+**metadata**: defines and describes the data and relationshipsbetween tables in the database
+**read and write privileges**: the ability to both read and modify a file
+**read-only access**: the ability to read a file but not make changes
+**self-describing**: a database system is referred to as self-describing because it not only contains the database itself, but also metadatawhich defines and describes the data and relationships between tables in the database
+**view**: a subset of the database
 :::
 :::
