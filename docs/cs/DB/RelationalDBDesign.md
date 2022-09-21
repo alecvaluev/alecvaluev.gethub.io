@@ -78,6 +78,60 @@ Properties of a Table:
 
 > DEPARTMENT ( department_id, department_name, manager_id, location_id )
 
+
+## Entity Relationship Data Model (= ER Schema)
+
+ER modelling is based on two concepts:
+- Entities(tables)
+- Relationships
+
+An `entity` is an object in the real world with an independent existence that can be differentiated from other objects. 
+
+can be classified based on their strength:
+- `weak` - if its tables are existence dependent.
+- `strong` - if it can exist apart from all of its related entities
+
+`entity type` - defines a collection of similar entities.(is represented by a name in a box)
+
+An `entity set` is a collection of entities of an entity type at a particular point of time.
+
+### Kinds of Entities
+
+### Independent entities
+ - referred to as `kernels`, are the backbone of the database. They are what other tables are based on. 
+ 
+ Kernels have the following characteristics:
+- are building blocks of a database
+- PK may be simple/composite
+- PK is not a FK
+- They do not depend on another entity
+
+### Dependent entities
+ - referred to as `derived entities`, depend on other tables for their meaning. 
+ 
+ These entities have the following characteristics:
+- are used to connect two kernels together
+- existence dependent on two or more tables.
+- M:M rel. become associative tables with at least two FK
+- may contain other attr
+- FK identifies each associated table
+- options for PK:
+  - Use a composite of FKs of associated tables if unique
+  - Use a composite of FKs and a qualifying column
+  - Create a new simple PK
+  
+### Characteristic entities
+They provide more information about another table.
+
+Characteristics:
+- represent multivalued attr
+- describe other entities
+- have a one-to-many rel.
+- FK is used to further identify the characterized table
+- options for PK:
+  - Use a composite of FK + qualifying column
+  - Create a new simple PK
+
 ## Keys
  `A key` is a single attribute or a combination of attributes that will uniquely identify a specific instance, or row, in a table.
 
@@ -95,6 +149,16 @@ Properties of a Table:
 table must have one, and only one, primary key. Remember that a composite key is a single key made up of more than one field.
 :::
 
+## Attributes
+Each entity is described by a set of attributes - Each attribute has a name, and is associated with an entity and a domain
+
+### Types of Attributes
+
+- `simple` - those drawn from the atomic value domains; they are also called single-valued attributes.
+- `composite` - that consist of a hierarchy of attributes (Address may consist of Number, Street and Suburb)
+- `multivalued` - have a set of values for each entity
+- `derived` - contain values calculated from other attributes
+
 
 ## Relationships
 
@@ -103,8 +167,8 @@ When multiple tables, or entities, are being used, there is often attributes in 
 `Relationship strength` is based on how the primary key of a related entity is defined. 
 - `weak`, or `non-identifying` - if the primary key of the related entity **does not contain a primary key** component of the parent entity.
 ```
-- Customer(**CustID**, CustName)
-- Order(**OrderID**, CustID, Date)
+- Customer(*CustID*, CustName)
+- Order(*OrderID*, CustID, Date)
 ```
 
 - `strong`, or `identifying` - when the primary key of the related entity **contains the primary key** component of the parent entity.
@@ -117,9 +181,9 @@ When multiple tables, or entities, are being used, there is often attributes in 
 
 | Type | Ex |
 | -- | -- |
-| one-to-many (1:M)	| `the most common type of relationship and means that in one direction`, one department has many employees |
-| 1-to-1 (1:1)	| `rare` one employee is associated with one spouse, and one spouse is associated with one employee |
-| many-to-many (M:N)	| Many-to-Many, also noted M:M or M:N, relationships are a special circumstance where there could be more than one reference to each row of the other table, in both directions.  If the league was to decide that a player could play on more than one team, then the design of the tables has to change, but then we would have the scenario where each team could have more than one player and each player could play on more than one team. |
+| 1-to-Many (1:M)	| `the most common type` - one department has many employees |
+| 1-to-1 (1:1)	| `rare`- one employee is associated with one spouse, and one spouse is associated with one employee |
+| Many-to-Many (M:N)	| each student at college can take more than one course, and each course at a college contains more than one student |
 
 :::details More Types
 
@@ -182,6 +246,7 @@ If there are multiple relationships in a database, one relationship can not over
 :::details 
 
 **hierarchical model**: represents data as a hierarchical tree structure
+
 **instance**: a record within a table
 
 **network model**: represents data as record types
