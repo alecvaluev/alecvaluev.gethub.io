@@ -83,11 +83,13 @@ Properties of a Table:
 
 | Type | Desc |
 | -- | -- |
-| Candidate Key	| an attr or combination of attr that could potentially be used to uniquely identify an single instance, or row, in a table |
-| Primary Key	| an attr or combination of attr that has been chosen to uniquely identify a single instance, or row, in a table.  |
-| Composite Key	| A composite key is the case where multiple attributes make up a candidate or primary key.  The uniqueness comes from the unique combination of values.  Each single attribute can have repeat values, but there can be no repeats in the combination of values from all attributes that are part of the composite key. |
-| Surrogate Key	| Is an artificially added field, or attribute, that is added to replace the existing fields from being the primary key.  This occurs most often in 2 cases: 1) when multiple composite fields are chosen, in order to simplify the interaction with the database and 2) when there is not a field, or attribute, available to be a Primary Key |
-| Foreign Key	| A foreign key is a constraint applied to a table defining the relationship between two tables (see next section). |
+| Candidate Key	| **an attr/combination of attr** that could potentially be used to uniquely identify an single instance/row. Must be minimal |
+| Primary Key (PK)	| a **candidate key** that has been **chosen to uniquely identify** a single instance, or row, in a table and must **not be null** |
+| Composite Key	| the case where multiple attributes make up a candidate or primary key.  The uniqueness comes from the unique combination of values |
+| Surrogate Key	| Is an **artificially added field**, or attribute, that is added **to replace the existing fields from being the primary key**.  This occurs most often in 2 cases: 1) when multiple composite fields are chosen, in order to simplify the interaction with the database and 2) when there is not a field, or attribute, available to be a Primary Key |
+| Foreign Key (FK)	| an attribute in a table that **references the primary key** in another table OR it can be null. Both foreign and primary keys must be of the same data type |
+| Secondary key | an attribute **used** strictly **for retrieval purposes** (can be composite) |
+| Alternate key | all **candidate keys not chosen** as the primary key |
 
 :::danger Fundamental Rule
 table must have one, and only one, primary key. Remember that a composite key is a single key made up of more than one field.
@@ -98,14 +100,33 @@ table must have one, and only one, primary key. Remember that a composite key is
 
 When multiple tables, or entities, are being used, there is often attributes in each table the relates the two tables together
 
+`Relationship strength` is based on how the primary key of a related entity is defined. 
+- `weak`, or `non-identifying` - if the primary key of the related entity **does not contain a primary key** component of the parent entity.
+```
+- Customer(**CustID**, CustName)
+- Order(**OrderID**, CustID, Date)
+```
+
+- `strong`, or `identifying` - when the primary key of the related entity **contains the primary key** component of the parent entity.
+```
+- Course(**CrsCode**, DeptCode, Description)
+- Class(**CrsCode**, **Section**, ClassTime…)
+```
+
 ### Relationship Types
 
 | Type | Ex |
 | -- | -- |
-| 1-to-many (1-∞)	| These relationships are the most common type of relationship and means that in one direction, there can be only one value per row of the child table, but in the other direction, there can many rows in the child table that reference a single row in the parent table. |
-| 1-to-1 (1-1)	| These relationships are used to reference multiple attributes of a row, determined by the primary key, where different attributes have varying levels of completeness (i..e they have a value or not).  When investigating the relationship from both directions, there can not be more than one related row in either table.  An example follows. |
-| many-to-many (∞-∞)	| Many-to-Many, also noted M:M or M:N, relationships are a special circumstance where there could be more than one reference to each row of the other table, in both directions.  If the league was to decide that a player could play on more than one team, then the design of the tables has to change, but then we would have the scenario where each team could have more than one player and each player could play on more than one team. |
+| one-to-many (1:M)	| `the most common type of relationship and means that in one direction`, one department has many employees |
+| 1-to-1 (1:1)	| `rare` one employee is associated with one spouse, and one spouse is associated with one employee |
+| many-to-many (M:N)	| Many-to-Many, also noted M:M or M:N, relationships are a special circumstance where there could be more than one reference to each row of the other table, in both directions.  If the league was to decide that a player could play on more than one team, then the design of the tables has to change, but then we would have the scenario where each team could have more than one player and each player could play on more than one team. |
 
+:::details More Types
+| Type | Desc |
+| -- | -- |
+| Unary (recursive) | one in which a relationship exists between occurrences of the same entity set. In this relationship, the primary and foreign keys are the same, but they represent two entities with different roles|
+| Ternary | a relationship type that involves many to many relationships between three tables. |
+:::
 ## Referential Integrity
 > it helps prevent errors in the data
 
@@ -184,60 +205,47 @@ If there are multiple relationships in a database, one relationship can not over
 **tuple**: a technical term for row or record
 
 
-alternate key: all candidate keys not chosen as the primary keycandidate key: a simple or composite key that is unique (no two rows in a table may have the same value) and minimal (every column is necessary)
-characteristic entities: entities that provide more information about another table
+**alternate key**: all candidate keys not chosen as the primary keycandidate key: a simple or composite key that is unique (no two rows in a table may have the same value) and minimal (every column is necessary)
 
-composite attributes: attributes that consist of a hierarchy of attributes
+**characteristic entities**: entities that provide more information about another table
 
-composite key: composed of two or more attributes, but it must be minimal
+**composite attributes**: attributes that consist of a hierarchy of attributes
 
-dependent entities: these entities depend on other tables for their meaning
+**composite key**: composed of two or more attributes, but it must be minimal
 
-derived attributes: attributes that contain values calculated from other attributes
+**dependent entities**: these entities depend on other tables for their meaning
 
-derived entities: see dependent entities
+**derived attributes**: attributes that contain values calculated from other attributes
 
-EID: employee identification (ID)
+**entity**: a thing or object in the real world with an independent existence that can be differentiated from other objects
 
-entity: a thing or object in the real world with an independent existence that can be differentiated from other objects
+**entity relationship (ER) data model**: also called an ER schema, are represented by ER diagrams. These are well suited to data modelling for use with databases.
 
-entity relationship (ER) data model: also called an ER schema, are represented by ER diagrams. These are well suited to data modelling for use with databases.
+**entity set**: a collection of entities of an entity type at a point of time
 
-entity relationship schema: see entity relationship data model
+**entity type**: a collection of similar entities
 
-entity set:a collection of entities of an entity type at a point of time
+**foreign key (FK)**: an attribute in a table that references the primary key in another table OR it can be null
 
-entity type: a collection of similar entities
+**independent entity**: as the building blocks of a database, these entities are what other tables are based on
 
-foreign key (FK): an attribute in a table that references the primary key in another table OR it can be null
+**key**: an attribute or group of attributes whose values can be used to uniquely identify an individual entity in an entity set
 
-independent entity: as the building blocks of a database, these entities are what other tables are based on
+**multivalued attributes**: attributes that have a set of values for each entity
 
-kernel: see independent entity
+**n-ary**: multiple tables in a relationship
 
-key: an attribute or group of attributes whose values can be used to uniquely identify an individual entity in an entity set
+**relationships**: the associations or interactions between entities; used to connect related information between tables
 
-multivalued attributes: attributes that have a set of values for each entity
+**relationship strength**:  based on how the primary key of a related entity is defined
 
-n-ary: multiple tables in a relationship
+**secondary key**: an attribute used strictly for retrieval purposes 
 
-null: a special symbol, independent of data type, which means either unknown or inapplicable; it does not mean zero or blank
+**simple attributes**: drawn from the atomic value domains
 
-recursive relationship: see unary relationship
+**stored attribute**: saved physically to the database
 
-relationships: the associations or interactions between entities; used to connect related information between tables
+**ternary relationship**: a relationship type that involves many to many relationships between three tables.
 
-relationship strength:  based on how the primary key of a related entity is defined
-
-secondary key an attribute used strictly for retrieval purposes 
-
-simple attributes: drawn from the atomic value domains
-
-single-valued attributes: see simple attributes
-
-stored attribute: saved physically to the database
-
-ternary relationship: a relationship type that involves many to many relationships between three tables.
-
-unary relationship: one in which a relationship exists between occurrences of the same entity set.
+**unary relationship**: one in which a relationship exists between occurrences of the same entity set.
 :::
