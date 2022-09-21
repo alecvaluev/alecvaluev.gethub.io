@@ -2,10 +2,10 @@
 
 ## Data vs Information
 
-Data: is the raw unprocessed strings, numbers, dates, measurements, etc. that is simply stored.  
+`Data`: is the raw unprocessed strings, numbers, dates, measurements, etc. that is simply stored.  
 Data is raw, unorganized facts that needs to be processed. (date of birth, grade, course)
 
-Information: reveals the meaning of data and is produced through the processing of the data 
+`Information`: reveals the meaning of data and is produced through the processing of the data 
 into meaningful output, summations and categorizations. (Persons Age, Average student Age, Average student mark, Students GPA)
 
 ## Before the Advent of Database Systems
@@ -67,13 +67,16 @@ In database systems, concurrency is managed thus allowing multiple users access 
 ## Data Anomalies
 
 There are 3 main types of data anomalies that can occur in a database:
-- Modification Anomalies
+- **Modification Anomalies**
+  
   when changing one records data leaves another records data in error.
 
-- Insertion Anomalies
+- **Insertion Anomalies**
+  
   when some poece of data or attribute is missing but when we try to insert data
 
-- Deletion Anomalies
+- **Deletion Anomalies**
+  
   the removal would result in the loss of data stored in this table.  Therefore, other independent fields may actually impact each other due to data.
 
 ## Databases
@@ -166,7 +169,7 @@ A database design should:
 5. Every cell in the database must have `atomic values` (a single value).
 
 ## Software Development Life Cycle (SDLC)
-
+![SDLC](/images/cs/SDLC.png)
 #pic from http://dbs211.ca/courses/dbs211/Week01/index.html
 
 :::details SDLC
@@ -180,6 +183,10 @@ A database design should:
 :::
 
 ## Database Life Cycle
+
+![DBLC](/images/cs/DBLC.png)
+
+
 | Stage | |
 | -- | -- | 
 | Requirements Analysis	| What does the database need?  What information do we need later?  How is the database going to be used?  What other applications will the database support? |
