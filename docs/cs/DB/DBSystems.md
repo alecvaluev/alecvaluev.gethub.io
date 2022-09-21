@@ -222,7 +222,7 @@ A database design should:
 
 **database management system (DBMS)**:  a collection of programs that enables users to create and maintain databases and control all access to them
 
-**table: a combination of fields
+**table**: a combination of fields
 
 **concurrency control strategies**: features of a database that allow several users access to the same data item at the same time
 
