@@ -89,7 +89,6 @@ Support operations:
 
 > designed to operate in a FIFO
 
-
 :::tip Underlying Container
 **deque** | list
 :::
@@ -165,7 +164,7 @@ Elements with equivalent keys are grouped together in the same bucket and in suc
 
 :::warning Note 
 the value is itself the key, of type T
-::
+:::
 
 - each value is unique
 - value cannot be modified once inside
@@ -177,7 +176,7 @@ the value is itself the key, of type T
 
 :::warning Note 
 the value is itself the key, of type T
-::
+:::
 
 - value cannot be modified once inside
 - sorted
