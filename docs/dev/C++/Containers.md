@@ -1,19 +1,190 @@
-# Containers Member Functions
+# Containers
+ 
+## Sequencial Containers
+ > Elems ordered in a strict linear sequence. Individual elements are accessed by their position in this sequence.
+ 
+### Vector
+< vector>
 
-## Sequence Containers
-## Vector
-- sequence containers representing arrays that can change in size.
+> representing arrays that can change in size
 
-- use contiguous storage => their elements can be accessed using offsets on regular pointers to its elements. 
-- size can change dynamically (storage being handled automatically by the container).
+- contiguous storage
+- access using offsets 
+- storage handled automatically
 
-Internally, vectors use a dynamically allocated array to store their elements. This array may need to be reallocated in order to grow in size when new elements are inserted, which implies allocating a new array and moving all elements to it. This is a relatively expensive task in terms of processing time, and thus, vectors do not reallocate each time an element is added to the container.
+Compare to other seq.cont.
+- efficient access
+- relatively efficient adding or removing (end)
+- inserting or removing (other pos.) - worse
 
-Instead, vector containers may allocate some extra storage to accommodate for possible growth, and thus the container may have an actual capacity greater than the storage strictly needed to contain its elements (i.e., its size). Libraries can implement different strategies for growth to balance between memory usage and reallocations, but in any case, reallocations should only happen at logarithmically growing intervals of size so that the insertion of individual elements at the end of the vector can be provided with amortized constant time complexity (see push_back).
+:::warning Note
+vector may allocate extra storage to accommodate for possible growth.
 
-Therefore, compared to arrays, vectors consume more memory in exchange for the ability to manage storage and grow dynamically in an efficient way.
+it may need to be reallocated in order to grow in size when new elements are inserted, which implies allocating a new array and moving all elements to it.
+- amortized constant time complexity 
+:::
 
-Compared to the other dynamic sequence containers (deques, lists and forward_lists), vectors are very efficient accessing its elements (just like arrays) and relatively efficient adding or removing elements from its end. For operations that involve inserting or removing elements at positions other than the end, they perform worse than the others, and have less consistent iterators and references than lists and forward_lists.
+
+### Array
+< array> 
+
+- fixed-size
+- contiguous storage
+- access using offsets
+- does not keep any data other than the elem
+- can be treated as tuple objects
+
+### Deque (Double ended queue)
+< deque>
+
+- dynamic size
+- not guaranteed to store all its elements in contiguous storage
+- iterators
+
+:::danger Note
+access by offset can cause undefined behavious
+:::
+
+- efficient insertion and deletion (not only at its end)
+- worse insertion and deletion at other pos.
+
+
+### Forward List
+< forward_list>
+
+- impl. singly-linked lists
+- constant time insert and erase (anywhere)
+- more efficient than list 
+
+
+Compare to other cont.
+- better in inserting, extracting and moving elem(anywhere)
+- lack direct access
+
+### List
+< list>
+
+- impl. doubly-linked lists
+- constant time insert and erase(anywhere)
+
+Compare to other cont.
+- better in inserting, extracting and moving elem(anywhere)
+- lack direct access
+
+
+
+## Container Adaptors
+
+> classes that use an encapsulated object of a specific container class as its underlying container, providing a specific set of member functions to access its elements. 
+
+Support operations: 
+ - empty()
+ - size()
+ - front()
+ - push_back()
+ - pop_back()
+
+### Queue
+< queue>
+
+> designed to operate in a FIFO
+
+
+:::tip Underlying Container
+**deque** | list
+:::
+
+### Priority Queue
+< queue>
+
+> designed such that its first element is always the greatest of the elements it contains, according to some strict weak ordering criterion.
+
+- random access iters.
+
+:::tip Underlying Container
+**vector** | deque
+:::
+
+### Stack
+< stack>
+
+> designed to operate in a LIFO
+
+- inserted/extracted only from one end
+
+:::tip Underlying Container
+**deque** | vector | list
+:::
+
+## Associative Containers
+
+> store elements formed by a combination of a key value and a mapped value, following a specific order
+
+## Map
+< map>
+
+>  key values are generally used to sort and uniquely identify the elem
+
+grouped together in member type value_type, which is a pair type combining both:
+
+typedef pair<const Key, T> value_type;
+
+- impl. as binary search trees
+- unique keys
+- sorted
+- slower than unordered_map
+- direct access by key using []
+
+## Mutlimap
+< map>
+
+:::danger Note
+ Same as MAP but elements in the container can have equivalent keys
+:::
+
+## Unordered Map
+< unordered_map>
+
+- not sorted 
+- unique keys
+- organized into buckets depending on their hash values
+- faster than map
+- less efficient for range iteration through a subset of their elem
+
+## Unordered Mutlimap
+< unordered_map>
+
+Elements with equivalent keys are grouped together in the same bucket and in such a way that an iterator (see equal_range) can iterate through all of them.
+
+
+
+## Set
+< set>
+
+> store unique elements following a specific order
+
+:::warning Note 
+the value is itself the key, of type T
+::
+
+- each value is unique
+- value cannot be modified once inside
+- sorted
+- slower than unordered_set 
+
+## Multiset
+< set>
+
+:::warning Note 
+the value is itself the key, of type T
+::
+
+- value cannot be modified once inside
+- sorted
+- impl. as binary search trees
+- can have equivalent keys
+- slower than unordered_multiset
+
 
 
 
