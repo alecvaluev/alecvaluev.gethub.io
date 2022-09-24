@@ -304,14 +304,179 @@ say the name of the other person and add suffixes such as `-씨`, `-님`, or a w
 = (Talking to the taxi driver) Please drop me off here.
 ```
 
-## Word Builder 3 / 동(動)
 ## It’s okay, I’m okay. / 괜찮아요.
+
+> Present tense = 괜찮아요.
+> 
+> Past tense = 괜찮았어요.
+> 
+> Future tense = 괜찮을 거예요.
+
+Usage
+1. I am okay/I am alright/Everything is fine.
+2. Don’t worry/No worries
+3. It’s good
+4. I’m cool/I am good/No, thanks
+
+
 ## It is okay to ..., You don’t have to ... / -아/어/여도 돼요, 안 -아/어/여도 돼요
+
+`‘it is okay to...’ or ‘you don’t have to/need to...’`
+
+되다 means ‘to function’, ‘to be possible’, or ‘can do’.
+
+```
+지금 인터넷 돼요?
+= Does the Internet work now?
+지금 배달 돼요?
+= Can you deliver the food now? / Is food delivery available now?
+배달 돼요?
+= Do you deliver food as well? / Can food delivery be done?
+```
+
+-아/어/여 + -도 means ‘even if’ or ‘even when’
+
+So,
+
+-아/어/여 + -도 + 되다 = -아/어/여도 되다 means ‘it is okay to...’ or ‘it is okay even if you...’.
+
+```
+켜도 돼요. = It’s okay. You can turn it on.
+내일 해도 돼요? = Is it okay if I do it tomorrow?
+시작해도 돼요. = You can start.
+시작해도 돼요? = Can I start? / Can we start?
+```
+### Negative
+(-아/어/여 + -도 + 되다) and adding 안 in front of it, you can say
+‘don’t have to...’ or ‘it is not necessary to...’.
+
+:::danger Note
+안 + -아/어/여 + -도 + 되다 does NOT translate to ‘you shouldn’t...’
+:::
+
+```
+청소 안 해도 돼요. = You don’t have to clean up. / It is okay if you don’t clean up.
+안 마셔도 돼요. = You don’t have to drink. / It’s okay if you don’t drink.
+```
+
+:::details Sample Sentances
+이거 나중에 해도 돼요.
+= You can do this later.
+(Question form: 이거 나중에 해도 돼요? = Can I do this later?)
+컴퓨터 써도 돼요?
+= May I use the computer?
+오늘 쉬어도 돼요.
+= You can take a day off today.
+:::
+
 ## You shouldn’t ..., You’re not supposed to ... / -(으)면 안 돼요
+
+`‘it is not okay if...’ or ‘it is not acceptable if...’`, and it can be
+more naturally translated to `‘you shouldn’t...’ or ‘you’re not supposed to...’`
+
+> Conjugation:
+> 
+> Verb stem + -(으)면 안 되다
+
+:::details Break Down
+-(으)면 안 되다 can be broken into two parts: 
+-(으)면 and 안 되다. 
+
+-(으) 면 means ‘if' and 되다 means ‘to work’, ‘to function’, ‘to be possible’, or ‘can do’. 
+Therefore, 안 되다 means ‘it can’t be done’, ‘it’s not possible’, or ‘it is not okay’.
+:::
+
+```
+열면 안 돼요.
+= You shouldn’t open it. / You are not supposed to open it.
+열면 안 돼요?
+= Should I not open it? / Am I not supposed to open it?
+열면 안 돼.
+= [to a child] You shouldn’t open it.
+
+열면 안 돼.
+= [to a child] You shouldn’t open it.
+```
+```
+던지면 안 돼요.
+= You should not throw it.
+던져도 돼요.
+= It’s okay to throw it.
+```
+
+:::details Sample Sentances
+지금 말하면 안 돼요?
+= Shouldn’t I tell/talk now? / Am I not supposed to tell/talk now?
+여기서 팔면 안 돼요?
+= Shouldn’t I sell it here? / Am I not supposed to sell it here?
+그거 던지면 안 돼요. 유리예요.
+= You should not throw it. It’s (made of) glass.
+:::
+
+
 ## Among, Between / 중에서, 사이에서, 사이에
+
+-에서 is a way to mark a location; 
+
+therefore, when 중 and -에서 are together, it literally means ‘in the middle’.
+
+
+### 중에서 
+
+When choosing from a few options, put 중에서 at the end of ‘A and B’.
+
+> * To make 중에서 shorter, you can drop 서.
+
+```
+Between A and B
+= A하고 B 중에서
+
+Between this book and that book
+= 이 책하고 저 책 중에서
+Among these three things
+= 이 세 개 중에서
+
+Please take one of these three.
+= 이 세 개 중에서 하나 가져가세요.
+```
+
+### 사이에서
+
+When saying ‘among’, such as in ‘popular among friends’ or ‘famous among teenagers’,
+can refer to a relationship or the theoretical space between
+certain objects or people.
+
+```
+Among friends
+= 친구들 사이에서
+
+This singer is popular among Koreans.
+= 이 가수는 한국인들 사이에서 인기가 많아요.
+Seokjin is popular among our listeners.
+= 석진 씨는 청취자들 사이에서 인기가 많아요.
+```
+
+### 사이에
+
+사이에 is used to refer to the physical space between two objects or people.
+
+```
+I am between the bank and the park.
+= 은행하고 공원 사이에 있어요.
+The pharmacy is between the school and the police station.
+= 약국은 학교하고 경찰서 사이에 있어요.
+```
+
+
 ## Any / 아무 (Part 1)
+
+To say “anyone”, “anything”, or “anywhere”
+
+> “any” in a positive context
+> 
+> “no” + N in a negative context
+
 ## To try doing something / -아/어/여 보다
-## Word Builder 4 / 불(不)
 ## Sometimes, Often, Always, Seldom, Never / 가끔, 자주, 항상, 별로, 전혀
 ## Any / 아무 (Part 2)
 ## Spacing in Korean / 띄어쓰기 (Part 1)
@@ -320,7 +485,6 @@ say the name of the other person and add suffixes such as `-씨`, `-님`, or a w
 ## Less, Not completely / 덜
 ## Sentence Building Drill 1
 ## Spacing in Korean / 띄어쓰기 (Part 2)
-## Word Builder 5 / 장(場)
 ## Word Contractions / 축약형 (Part 2)
 ## Much (more), Much (less) / 훨씬
 ## -(으)ᄅ + noun (future tense noun group) / -(으)ᄅ + 명사, -(으)ᄅ 것
