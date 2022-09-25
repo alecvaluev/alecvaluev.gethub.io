@@ -469,27 +469,214 @@ The pharmacy is between the school and the police station.
 
 
 ## Any / 아무 (Part 1)
-
-To say “anyone”, “anything”, or “anywhere”
-
-> “any” in a positive context
-> 
-> “no” + N in a negative context
-
 ## To try doing something / -아/어/여 보다
 ## Sometimes, Often, Always, Seldom, Never / 가끔, 자주, 항상, 별로, 전혀
 ## Any / 아무 (Part 2)
 ## Spacing in Korean / 띄어쓰기 (Part 1)
+
+Space between:
+1. Adj and Noun
+2. Adv and a V
+3. N(+ marker) and V
+4. N and another N
+
+No Space between:
+1. a noun/pronoun and a marker
+2. nouns in a proper name
+```
+한국관광공사 = Korea Tourism Organization
+서울도시철도공사 = Seoul Metropolitan Rapid Transit
+```
+
+:::tip Exceptions
+1. Words which form fixed expressions can be written together without space.
+```
+이 + 것 = 이 것 → 이것
+가족 + 사진 = 가족 사진 → 가족사진
+* These two words are put together because they are commonly used together.
+** This lack of spacing is commonly found in Sino-Korean words.
+```
+
+2. Noun + 하다
+```
+- 공부(를) 하다 = 공부 하다 → 공부하다
+- 운동(을) 하다 = 운동 하다 → 운동하다
+```
+:::
+
 ## Word Contractions - Topic/Subject marker / 축약형 (Part 1) - 주격 조사
-## The most / 제일, 가장
+
+### Topic marker
+
+> after nouns and pronouns, sometimes they are shortened
+
+1. 저는 → 전 [polite]
+2. 나는 → 난 [casual]
+3. 이것은 [very formal] → 이거는 [casual] → 이건 [casual]
+4. 서울에는 → 서울엔
+5. 어제는 → 어젠
+
+```
+저는 괜찮아요. = I’m alright. → 전 괜찮아요.
+나는 여기 있을게. = I’ll stay here. → 난 여기 있을게.
+이것은 뭐예요? = What is this? → 이건 뭐예요?
+서울에는 왜 왔어요? = What brings you to Seoul? → 서울엔 왜 왔어요?
+어제는 왜 안 왔어요? = Why didn’t you come yesterday? → 어젠 왜 안 왔어요?
+```
+
+### Subject marker
+
+> `것` + `-이 ` => `게`.
+
+1. 이것이 [formal] → 이게 [casual]
+2. 저것이 [formal] → 저게 [casual]
+3. 그것이 [formal] → 그게 [casual]
+
+```
+이것이 좋아요. = This one is good. → 이게 좋아요.
+저것이 더 예뻐요. = That (over there) is prettier. → 저게 더 예뻐요.
+그것이 어디 있어요? = Where is it? → 그게 어디 있어요?
+```
+:::details Sample Sentences
+전 학생이에요.
+= I am a student.
+
+이건 제 거예요.
+= This is mine.
+
+서울엔 눈이 오고 있어요.
+= (Well, in other areas I don’t know, but) As far as Seoul is concerned, it is snowing.
+
+어젠 뭐 했어요?
+= What did you do yesterday?
+
+저게 편해요.
+= That is convenient. / There are no other things as convenient as that one.
+
+저는 그게 없어요.
+= I don't have it.
+:::
+
+# The most / 제일, 가장
+
+`Most (+ adjective/adverb) = 제일/가장`
+
+:::tip Fact
+제일 - Sino-Korean, while 가장 - native Korean word.
+:::
+
+```
+제일 예쁜 여자 = 가장 예쁜 여자
+
+제일 좋아요.
+= (subject) is the best (most + good).
+제일 좋은 것
+= the best (most + good) thing
+```
+
+:::details Sample Sentences
+이게 제일 좋아요.
+= This is the best (one).
+제일 가까운 역이 어디예요?
+= Where is the closest station?
+어떤 색깔이 가장 좋아요?
+= Which color is the best? / Which color is your favorite?
+제일 먼저 온 사람이 누구예요?
+= Who is the person that came here first?
+요즘 가장 인기 있는 가수는 누구예요?
+= These days, who is the most popular singer?
+:::
+
 ## Less, Not completely / 덜
-## Sentence Building Drill 1
+
+`덜 = less` can only be used as an adverb
+
+```
+덜 비싼 것 없어요?
+= Don’t you have a less expensive one?
+물은 더 마시고, 밥은 덜 먹어야 돼요.
+= (lit.) You should drink water more and eat less rice.
+```
+
+### 덜 can also mean “not completely yet”.
+
+> “not fully” or “not completely yet”.
+
+```
+A: 그 우유 다 마셨어요?
+= Did you drink all of that milk?
+B: 아니요. 다 안 마셨어요. 덜 마셨어요.
+= No, I didn’t drink all of it. I haven’t finished it yet.
+
+A: 다 왔어요?
+= Are we there yet?
+B: 덜 왔어요.
+= We are not there yet.
+```
+
 ## Spacing in Korean / 띄어쓰기 (Part 2)
 ## Word Contractions / 축약형 (Part 2)
+
+
 ## Much (more), Much (less) / 훨씬
 ## -(으)ᄅ + noun (future tense noun group) / -(으)ᄅ + 명사, -(으)ᄅ 것
 ## -(으)ᄂ + noun (past tense noun group) / -(으)ᄂ + 명사, -(으)ᄂ 것
 ## I think that ... / ... 것 같다
 ## To become + adjective / -아/어/여지다
 ## To gradually get to do, To end up doing / -게 되다
-## Sentence Building Drill 2
+
+> Conjugation:
+> 
+> V + -게 되다
+>
+> [present tense] 하게 돼요.
+> 
+> [past tense] 하게 됐어요.
+> 
+> [future tense] 하게 될 거예요.
+
+::tip Meanings of -게 + 되다
+= things happen in a way in which someone gets to do something
+= to get into a state where someone does something
+:::
+
+### Usages
+
+1. When you do not want to do something, but you have to and you eventually end up doing
+it;
+
+```
+안 먹고 싶어요. 그런데 먹게 돼요.
+= I don’t want to eat it, but I keep eating it anyway.
+```
+
+2. when you did not expect or intend to do something, but you ended up having to do it;
+
+```
+지난 주에 영화를 보게 됐어요.
+= I wasn’t planning to in the first place, but I got to see a movie last week.
+```
+
+3. when you want to say that you (or someone else) will eventually do something in the
+future whether or not you (or he/she) want(s) to.
+
+```
+그렇게 하게 될 거예요.
+= You will eventually end up doing it that way.
+오게 될 거예요.
+= He will eventually come here.
+```
+
+:::details Sample Sentences
+내일 알게 될 거예요.
+= You will find out tomorrow.
+다 사게 됐어요.
+= I ended up buying everything.
+
+다시 학교에 다니게 됐어요.
+= (Things have happened so that) now I can go back to school.
+어떻게 여기에 오게 됐어요?
+= How did you get to come here?
+만나게 되면 말해 주세요.
+= If you get to meet him, tell me.
+:::
