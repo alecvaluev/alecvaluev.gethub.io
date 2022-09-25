@@ -366,7 +366,7 @@ print(thislist)
 
 To append elements from another list to the current
 
-# you can add any iterable object (tuples, sets, dictionaries etc.).
+You can add any iterable object (tuples, sets, dictionaries etc.).
 
 > list1.extend(list2)
 
@@ -495,7 +495,7 @@ mylist = list(thislist)
 ```
 
 ### Join Lists
-- +
+- `+`
   > list3 = list1 + list2
 - by appending all the items one by one 
 ```py
