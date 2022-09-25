@@ -127,7 +127,6 @@ cannot convert complex numbers into another number type
 
 ```py
 import random
-
 print(random.randrange(1, 10)) # between  1 - 9
 ```
 
@@ -267,37 +266,37 @@ print(bool(myobj))
 ## Operations
 ### Arithmetic
 
-> + - * % ** 
+> `+` `-` `*` `%` `**` 
 >
-> /(div to float),   //(floor div)
+> `/`(div to float)   `//`(floor div)
 
 ### Assignment
 
-> = += -= *= /= %= //= **= 
+> `=` `+=` `-=` `*=` `/=` `%=` `//=` `**=` 
 >
-> &= |= ^= >>= >>=
+> `&=` `|=` `^=` `>>=` `>>=`
 
 ### Comparison
 
-> == != > < >= <=
+> `==` `!=` `>` `<` `>=` `<=`
 
 ### Logical
 
-> and or not
+> `and` `or` `not`
 
 ### Identity
 used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location
 
-> is, is not
+> `is`, `is not`
 
 ### Membership
 used to test if a sequence is presented in an object
 
-> in, not in
+> `in`, `not in`
 
 ### Bitwise
 
-> & | ^ ~ << >>
+> `&` `|` `^` `~` `<<` `>>`
 
 
 ## Lists
